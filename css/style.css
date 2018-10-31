@@ -1,0 +1,101 @@
+#headbar {
+    background-color: cornflowerblue;
+}
+
+#outputimg , input[type="file"] {
+    float: right;
+}
+
+#addplaylist input {
+    width: 260px;
+}
+
+#file-input {
+    display: none;
+}
+
+#file-wrapper {
+    float: right;
+
+}
+
+h1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.coverimg {
+    height: auto;
+    width: 100%;
+    border-radius: 50%;
+    max-height: 183px;
+    max-width: 183px;
+}
+
+.playlists {
+    margin: auto;
+}
+
+.playbtn {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform:  translate(-50%, -50%);
+    /* -ms-transform: ; */
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.playbtn > i {
+    margin-left: 28%;
+    opacity: 0;
+}
+
+/* playico {
+    margin-left: 30%;
+} */
+
+.editbtn {
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    transform:  translate(-50%, -50%);
+    /* -ms-transform: ; */
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.editbtn > i {
+    margin-left: 21%;
+}
+
+.deletebtn {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    transform:  translate(-50%, -50%);
+    /* -ms-transform: ; */
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.deletebtn > i {
+    margin-left: 21%;
+}
